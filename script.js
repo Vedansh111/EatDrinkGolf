@@ -25,6 +25,7 @@ h4all.forEach(function(e){
 var c = document.querySelectorAll("#overlay")
 c.forEach(function(e){
     
+
     e.addEventListener("mouseenter", function(){
         crsr.style.scale = 4
         crsr.style.border = "0.5px solid white"
