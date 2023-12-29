@@ -8,6 +8,7 @@ document.addEventListener('mousemove',function(dets){
     crsrb.style.top = dets.y-200 +"px"
 })
 
+
 var h4all = document.querySelectorAll("#nav h4")
 h4all.forEach(function(e){
     e.addEventListener("mouseenter", function(){
